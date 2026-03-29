@@ -1,0 +1,60 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+
+:root {
+    --LightBlue: #B3DEEA;
+    --Cyan: #94b0ff;
+    --Pink: #e834ff;
+    --LightPink: #E2A9F1;
+}
+
+
+
+
+
+header {
+    background-image: linear-gradient(to right, var(--Cyan), var(--Pink));
+    opacity: 70%;
+    display: flex;
+    align-items: center;
+    padding: 2.5rem 3rem;
+    ;
+    position: relative;
+}
+
+.MindUpTitle {
+    font-family: "Lobster Two", cursive;
+    position: absolute;
+    font-size: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navegacao {
+    margin-left: 45%;
+    order: 2;
+}
+
+.navegacao ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: var(--LightPink);
+    padding: 9px 25px;
+    border-radius: 100px;
+    border: 1px solid;
+    
+    
+}
+.Logo{
+    padding-left: 10%;
+}
